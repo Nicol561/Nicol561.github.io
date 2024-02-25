@@ -1,0 +1,86 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#naslov{
+  color: #b2cbae;
+  border-bottom: #b2cbae 5px solid;
+  margin-bottom: 20px;
+  padding-left: 80px;
+  padding-right: 30px
+}
+.line-height {
+line-height: 0.3; 
+margin-left: 80px;
+}
+
+.green{
+background-color: #b2cbae;
+height: 200px;
+}
+.green-button{
+background-color: #b2cbae;
+border: #b2cbae;
+color: #252725;
+padding: 10px 10px;
+font-weight: bold;
+}
+
+.green-button:hover{
+opacity: 0.7;
+background-color: #b2cbae;
+color: #252725;
+}
+
+.green-button:active{
+opacity: 0.7;
+background-color: #b2cbae;
+color: #252725;
+}
+.grey{
+background-color: #f7f8fa;
+}
+.oblikovani-oblutak{
+color: #b2cbae;
+border-bottom: #b2cbae 4px solid;
+}
+
+.green-form{
+background-color: #b2cbae;
+}
+
+.grey-form{
+background-color: #f7f8fa;
+padding: 20px;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+.obrazac{
+font-size: 12px;
+font-weight: bold;
+}
+.box{
+box-shadow: 0 4px 2px -2px rgb(237, 236, 236);
+
+}
+
+h4{
+  border-bottom: #b2cbae 5px solid;
+  font-weight: bolder;
+  color: #b2cbae;
+  padding-bottom: 8px;
+}
+
+.footer{
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.footer p{
+  color: rgb(89, 85, 85);
+}
+
+.bi{
+  font-size: 25px;
+  color: #b2cbae;
+  margin-bottom: 5px;
+}

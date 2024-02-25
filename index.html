@@ -12,11 +12,14 @@
         height: 200vh;
       }
 
-      i {
+      .ikone {
         font-size: 40px;
         padding: 10px;
         color: black;
         
+      }
+      .linkovi{
+        color: white;
       }
 
       .moji_radovi{
@@ -25,9 +28,19 @@
       }
 
       .porfolio-pic{
-        
         border-radius: 20px;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+      }
+
+      .box{
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+      }
+
+      .posjeti{
+        width: 150px;
+        height: 40px;
+        font-weight: 700;
+       
       }
     </style>
   </head>
@@ -71,14 +84,14 @@
    
     <div class="px-4 py-5 my-5 text-center" id="about">
       <img class="d-block mx-auto mb-4 porfolio-pic" src="pictures/porfolio-pic.jpg" alt="" width="200" >
-      <h1 class="display-4 fw-bold text-body-emphasis">Porfolio by Nicol Budimir</h1>
+      <h1 class="display-4 fw-bold text-body-emphasis">Dobrodošli</h1>
       <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, aliquid! Ducimus ut dolorem earum aliquam eum ex unde nesciunt quo! Commodi illum inventore unde quam vel quo quasi eligendi.</p>
+        <p class="lead mb-4">Moje ime je Nicol Budimir i trenutno pohađam NEET akademiju smjer Full-stack developer</p>
 
         <p>
-           <a target="_blank" href="https://www.facebook.com/nicol.budimir/"><i class="bi bi-facebook"></i></a> 
-           <a target="_blank" href="tel:+385919833798"><i class="bi bi-phone"></i></a>  
-           <a target="_blank" href="mailto:nicolbudimir@gmail.com"><i class="bi bi-envelope"></i></a>  
+           <a target="_blank" href="https://www.facebook.com/nicol.budimir/"><i class="bi bi-facebook ikone"></i></a> 
+           <a target="_blank" href="tel:+385919833798"><i class="bi bi-phone ikone"></i></a>  
+           <a target="_blank" href="mailto:nicolbudimir@gmail.com"><i class="bi bi-envelope ikone"></i></a>  
         
         </p>
         
@@ -90,48 +103,82 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-3 ">
-          <div class="card" style="width: 18rem;">
-            <img src="pictures/web-shop.png" class="card-img-top" alt="...">
+        <div class="col-6 ">
+          <div class="card m-3 border-0  box">
+            <img src="pictures/web-shop.png" class="card-img-top" alt="web-shop">
             <div class="card-body">
               <h5 class="card-title">Web-shop</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="https://nicol561.github.io/izrada-web-stranice-web-shop-Nicol561/web.shop/" class="btn btn-secondary">Posjeti</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-3 ">
-          <div class="card" style="width: 18rem;">
-            <img src="pictures/todo.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Todo App</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a target="_blank" href="#" class="btn btn-secondary">Posjeti</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-3">
-          <div class="card" style="width: 18rem;">
-            <img src="pictures/vremenska-prognoza.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Vremenska prognoza</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-secondary">Posjeti</a>
+              <div class="d-flex justify-content-center">
+              <a target="_blank" href="https://nicol561.github.io/izrada-web-stranice-web-shop-Nicol561/web.shop/" class="btn btn-secondary posjeti">Posjeti</a>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="col-3">
-          <div class="card" style="width: 18rem;">
-            <img src="pictures/kviz.png" class="card-img-top" alt="...">
+
+        <div class="col-6 ">
+          <div class="card m-3 border-0  box">
+            <img src="pictures/todo.png" class="card-img-top" alt="todo lista">
             <div class="card-body">
-              <h5 class="card-title">Kviz</h5>
+              <h5 class="card-title">Todo App</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-secondary">Posjeti</a>
+              <div class="d-flex justify-content-center"> 
+                <a href="#" class="btn btn-secondary posjeti">Posjeti</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
+
+       <div class="row">
+        <div class="col-6">
+          <div class="card m-3 border-0  box">
+            <img src="pictures/vremenska-prognoza.png" class="card-img-top" alt="vremenska prognoza">
+            <div class="card-body">
+              <h5 class="card-title">Vremenska prognoza</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="d-flex justify-content-center"> 
+                <a href="#" class="btn btn-secondary posjeti">Posjeti</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="card m-3 border-0  box">
+            <img src="pictures/kviz.png" class="card-img-top" alt="kviz">
+            <div class="card-body">
+              <h5 class="card-title">Kviz</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="d-flex justify-content-center"> 
+                <a href="#" class="btn btn-secondary posjeti">Posjeti</a>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+
+
+       <div class="row">
+        <div class="col-6">
+          <div class="card m-3 border-0  box">
+            <img src="pictures/oblutak-webpage.png" class="card-img-top" alt="oblutak stranica">
+            <div class="card-body">
+              <h5 class="card-title">Oblutak webstranica</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+               <div class="d-flex justify-content-center"> 
+                <a href="#" class="btn btn-secondary posjeti">Posjeti</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6"></div>
+
+
+       </div> 
     </div>
 
 
@@ -141,7 +188,18 @@
 
 
 
-
+    <div class="container-fluid m-0 p-0">
+      <footer class="py-3 my-4 bg-dark">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#about" class="nav-link px-2 text-body-white linkovi">O meni</a></li>
+          <li class="nav-item"><a href="#radovi" class="nav-link px-2 text-body-white linkovi">Moji radovi</a></li>
+          <li class="nav-item"><a target="_blank" href="https://www.facebook.com/nicol.budimir/" class="nav-link px-2 text-body-white"><i class="bi bi-facebook linkovi"></i></a></li>
+          <li class="nav-item"><a target="_blank" href="tel:+385919833798" class="nav-link px-2 text-body-white"><i class="bi bi-phone linkovi"></i></a></li>
+          <li class="nav-item"><a target="_blank" href="mailto:nicolbudimir@gmail.com" class="nav-link px-2 text-body-white"><i class="bi bi-envelope linkovi"></i></a></li>
+        </ul>
+        <p class="text-center text-white">© 2024 Nicol Budimir</p>
+      </footer>
+    </div>
 
 
     
